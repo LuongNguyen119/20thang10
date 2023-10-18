@@ -117,13 +117,13 @@ body{
 }
 .loading .textLoad{
     font-family: 'Roboto', sans-serif;
-    color: rgb(244,118,121);
+    color: rgb(243, 98, 100);
     font-family: 500;
     font-size: 20px;
     text-transform: uppercase;
 }
 .loading h2 .cricle1, .cricle2, .cricle3{
-    color: rgb(244,118,121);
+    color: rgb(247, 151, 152);
     opacity: 0;
 }
 .cricle1{

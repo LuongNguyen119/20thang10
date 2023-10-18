@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 *{
     padding: 0;
@@ -8,6 +9,7 @@
 }
 body{
     overflow: hidden;
+    background: rgb(250, 195, 216);
 }
 .wrapper{
     position: relative;
@@ -101,7 +103,7 @@ body{
     padding-top: 5px;
     color: #fff;
     font-size: 50px;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Satisfy', cursive;
     animation: textHand 1.5s 6s forwards ease-in;
 }
 @keyframes textHand{
@@ -653,16 +655,16 @@ body{
     user-select: none;
 }
 .textLetter h2{
-    margin-top: 20px;
+    margin-top: 23px;
     font-size: 30px;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Great Vibes', cursive;
 }
 .textLetter .contentLetter{
-    font-size: 19px;
+    font-size: 21px;
     text-align: center;
     padding: 0px 10px;
     margin-top: 10px;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Great Vibes', cursive;
 
 }
 .fa-xmark{

@@ -16,7 +16,7 @@
                 <div class="handsCat">
                     <img src="../image/handsCat.png" alt="">
                 </div>
-                <h1>Welcome</h1>
+                <h1>Xin Chào</h1>
             </div>
             <div class="boxSlider">
                     <div class="listSlider">
@@ -119,7 +119,7 @@
         <a title='Play music'><i class='fa fa-music'></i></a>
         </button>
         <div class='music-holder'>
-        <iframe allow='autoplay; encrypted-media' allowfullscreen='' frameborder='0' height='315' src='https://www.youtube.com/embed/SRdew42ngnE?controls=0&autoplay=1' width='560'></iframe>
+        <iframe allow='autoplay; loop; encrypted-media' allowfullscreen='' frameborder='0' height='315' src='https://www.youtube.com/embed/SRdew42ngnE?controls=0&autoplay=1' width='560'></iframe>
         </div>
         </div>
         <script type='text/javascript'>
@@ -189,7 +189,7 @@
 
     const inputField = document.getElementById('inputField');
     const textToType = "Name Người Nhận";
-    const typingSpeed = 100; // milliseconds per character
+    const typingSpeed = 100; 
 
     let charIndex = 0;
     function typeText() {
@@ -229,7 +229,6 @@
     }, 11500)
     });
 
-    // .textLetter text h2
     let indexText = 0;
     let textLetter = document.querySelector('.textLetter h2');
     const textLetterH2 = "Gửi em!";
@@ -249,18 +248,17 @@
         }
     }
     function funcTimeoutLetter(){
-        indexText = 0; // Reset indexText
-        textLetter.textContent = ''; // Xóa nội dung hiện tại của textLetter
+        indexText = 0; 
+        textLetter.textContent = ''; 
         clearInterval(timoutTextLetter);
         timoutTextLetter =  setInterval(()=>{
                 textCharLetter();
             }, 200)
     }
 
-    // chữ của thư bạn muốn gửi
     let indexTextContent = 0;
     let textLetterContent = document.querySelector('.contentLetter');
-    const textLetterP = "1 tuần có 7 ngày. 1 ngày có 24 giờ. 1 giờ có 60 phút. 1 phút có 60 giây. Không có một ngày hoặc giờ mà anh không nhớ em. Không có giây phút nào mà anh không nghĩ đến em. Tâm hồn và trái tim anh tràn ngập bạn. Nhớ và yêu em nhiều lắm. (Nguồn: Google)";
+    const textLetterP = "1 tuần có 7 ngày. 1 ngày có 24 giờ. 1 giờ có 60 phút. 1 phút có 60 giây. Không có một ngày hay một giờ nào mà anh không nhớ em. Không có giây phút nào mà anh không nghĩ đến em. Tâm hồn và trái tim anh tràn ngập bạn. Nhớ và yêu em nhiều lắm. (Nguồn: Google)";
     let timoutTextLetterContent;
     function textCharLetterContent(){
         if (indexTextContent < textLetterP.length) {
@@ -274,14 +272,14 @@
         }
     }
     function funcTimeoutLetterContent(){
-        indexTextContent = 0; // Reset indexTextContent
-        textLetterContent.textContent = ''; // Xóa nội dung hiện tại của textLetter
+        indexTextContent = 0; 
+        textLetterContent.textContent = ''; 
         clearInterval(timoutTextLetterContent);
         timoutTextLetterContent =  setInterval(()=>{
             textCharLetterContent();
             }, 100)
     }
-    //end 
+ 
     document.querySelector(".boxSlider .right").addEventListener("click", function(){
         var slider = document.querySelectorAll(".slider")
         document.querySelector(".listSlider").appendChild(slider[0])
